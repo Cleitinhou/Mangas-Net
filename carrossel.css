@@ -1,0 +1,110 @@
+.carrossel-titulo{
+    color: aliceblue;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    background-color: rgb(75, 106, 44);
+    padding: 0.5em 0 0.5em 0;
+    
+}
+
+
+
+.swiper{
+    margin: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.swiper-slide{
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 70%;
+    position: relative;
+}
+
+
+.swiper-slide img{
+    width: 100%;
+    size: 7%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.796);
+    border-radius: 10px;
+}
+
+.swiper-slide:hover img{
+    transform: scale(1.10);
+    animation: alternate;
+    box-shadow: none;
+    background-color: black;
+    padding: 10px;
+    padding-bottom:40px;;
+    position: relative;
+}
+
+.swiper-slide img{
+    transition: 0.25s;
+}
+
+.swiper-wrapper{
+    padding: 20px;
+    padding-bottom: 55px;
+    margin-bottom: 80px;
+}
+
+.swiper-button-next{
+    color: aliceblue;
+    transition: 1s;
+}
+
+.nome-mangá{ position: absolute;
+    display: none;
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    font-weight: 700;
+    padding-left: 25%;
+    padding-right: 24%;
+    padding-top: 5%;
+    margin-top: -0.5em;
+    font-size: 30px;
+   
+}
+
+.swiper-slide:hover .nome-mangá{
+    display: block;
+    color: aliceblue;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: -1em;
+    background-color: black;
+}
+
+.capitulos{ 
+    display: none;
+    font-size: 20px;
+    margin-top: 0.6em;
+    position: absolute;
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.swiper-slide:hover .capitulos{
+    padding-top: 2%;
+    padding-left: 20%;
+    padding-right: 19%;
+    bottom: -5;
+    left: 0;
+    right: -1em;
+    background-color: rgb(25, 88, 27);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: block;
+    color: aliceblue;
+    position: absolute;
+    text-align: center;
+    margin-right: 1em;
+    margin-left: 1em;
+}
