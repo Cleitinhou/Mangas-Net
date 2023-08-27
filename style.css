@@ -5,18 +5,17 @@
 
 .cabeçalho{
      width: 100%;
-    background-color:rgb(13, 13, 13);
+    background-color:rgb(16, 16, 16);
     padding-bottom: 20px;
 }
 
 body{
-    background-color: rgb(0, 0, 0);
-    color: rgb(14, 13, 13);
+    background-color: rgb(8, 8, 8);
 }
 
 .Titulo{
     color: aliceblue;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Reggae One',cursive;
     font-weight: 900;
     margin: auto;
     font-size: 75px;
@@ -36,11 +35,8 @@ Ul{
 
 li{
     text-align: center;
-    padding: 10px;
     margin: 30px;
     margin: auto;
-    border-left: solid  white;
-    border-right: solid white;
     font-size: 30px;
 }
 
@@ -55,4 +51,21 @@ li{
 
 .inicio{
     display: flex;
+}
+
+.links:hover{
+    animation-fill-mode: backwards;
+    color: rgb(69, 6, 108);
+}
+
+.links{
+    transition: 0.3s;
+}
+
+.links{
+    text-decoration: none;
+    color: #fdfdfd;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: 'Poppins';
 }

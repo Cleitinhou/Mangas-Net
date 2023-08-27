@@ -4,9 +4,9 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 900;
     text-align: center;
-    background-color: rgb(75, 106, 44);
+    background-color: rgb(69, 6, 108);
     padding: 0.5em 0 0.5em 0;
-    
+    box-shadow: 0 0 30px rgba(69, 6, 189, 0.25);
 }
 
 
@@ -32,14 +32,15 @@
     border-radius: 10px;
 }
 
-.swiper-slide:hover img{
+.swiper-slide img:hover{
     transform: scale(1.10);
     animation: alternate;
     box-shadow: none;
-    background-color: black;
+    background-color: rgb(250, 250, 250);
     padding: 10px;
     padding-bottom:40px;;
     position: relative;
+    box-shadow: 0 0 20px rgba(69, 6, 189, 0.25);
 }
 
 .swiper-slide img{
@@ -49,12 +50,10 @@
 .swiper-wrapper{
     padding: 20px;
     padding-bottom: 55px;
-    margin-bottom: 80px;
-}
-
-.swiper-button-next{
-    color: aliceblue;
-    transition: 1s;
+    margin-bottom: 20px;
+    margin-top: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
 }
 
 .nome-mangá{ position: absolute;
@@ -72,13 +71,14 @@
 
 .swiper-slide:hover .nome-mangá{
     display: block;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     position: absolute;
     text-align: center;
     bottom: 0;
     left: 0;
     right: -1em;
-    background-color: black;
+    margin-right: em;
+    background-color: rgb(250, 250, 250);
 }
 
 .capitulos{ 
@@ -98,7 +98,7 @@
     bottom: -5;
     left: 0;
     right: -1em;
-    background-color: rgb(25, 88, 27);
+    background-color: rgb(69, 6, 108);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     display: block;
@@ -107,4 +107,27 @@
     text-align: center;
     margin-right: 1em;
     margin-left: 1em;
+}
+
+.swiper-button-prev, .swiper-button-next{
+    padding: 15px;
+    border-radius: 60px;
+    background-color: aliceblue;
+    margin: 0 0.3em;
+    color: black;
+}
+
+.rodapé{
+    background-color: black;
+    padding: 50px;
+}
+
+.creditos{
+    color: rgba(240, 248, 255, 0.881);
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    bottom: 0;
+    left: 0;
+    position: relative;
 }
